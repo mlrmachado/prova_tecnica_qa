@@ -42,7 +42,7 @@ def busca_amazon(item):
 
 # Caso não for digitado nenhum produto, será feita uma busca pelo produto caneta;
 item = input("Digite o nome de um produto:")
-if not item.strip(): 
+if not item.strip():
     item = 'caneta'
 
 driver = webdriver.Chrome()
